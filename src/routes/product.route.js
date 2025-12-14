@@ -9,7 +9,7 @@ const {
     deleteProduct,
 } = require("../controllers/product.controller");
 
-const { authMiddleware } = require("../middlewares/auth");
+const authMiddleware = require("../middlewares/auth");
 const isAdmin = require("../middlewares/isAdmin");
 const upload = require("../config/multer");
 
